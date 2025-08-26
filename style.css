@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #eef2f7;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #222;
+}
+
+h1 {
+  background-color: #1e293b;
+  color: #f5f5f5;
+  font-size: 3rem;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  background-color: #64748b;
+  padding: 12px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+  color: #f8fafc;
+  font-size: 1.1rem;
+  text-decoration: none;
+  padding: 6px 14px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #334155;
+  color: #facc15;
+}
+
+.skills,
+.about,
+.skillWritten,
+.project,
+.Education,
+.contact {
+  background-color: #1e293b;
+  color: #f8fafc;
+  padding: 14px 20px;
+  margin: 20px 0 0 0;
+  font-size: 1.5rem;
+  border-left: 6px solid #facc15;
+  border-radius: 4px;
+}
+
+.me,
+.list {
+  background-color: #f1f5f9;
+  font-size: 1.15rem;
+  padding: 12px 20px;
+  margin: 0;
+  border-radius: 6px;
+}
+
+.list {
+  list-style: square inside;
+}
+
+hr {
+  border: none;
+  border-top: 4px dashed #94a3b8;
+  width: 100%;
+  margin: 20px 0;
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  margin: 12px auto;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+thead {
+  background-color: #1e293b;
+  color: whitesmoke;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+form {
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f8fafc;
+  border-radius: 8px;
+  width: 60%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+input,
+textarea,
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #1e293b;
+  color: #facc15;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #334155;
+}
